@@ -25,7 +25,7 @@ public class Constants {
     public static final String SUCCESSFUL_SIGN_UP_MESSAGE = "Account is created!";
 
     //    Sign in
-    public static final By SIGN_IN_LOGIN_FIELD_LOCATOR = By.name("email");
+    public static final By SIGN_IN_EMAIL_FIELD_LOCATOR = By.name("email");
     public static final By SIGN_IN_PASSWORD_FIELD_LOCATOR = By.name("password");
     public static final By SIGN_IN_BUTTON_LOCATOR = By.xpath("//input[@value='Login']");
     public static final String SIGN_IN_INVALID_CREDENTIALS_VALIDATION_MESSAGE

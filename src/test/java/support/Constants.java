@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 
 public class Constants {
 
+    private Constants() {
+    }
+
     //    Common
     public static final By WARNING_MESSAGE_LOCATOR = By.cssSelector("span.error_message");
     public static final By CONFORMATION_MESSAGE_LOCATOR = By.cssSelector("span.confirmation_message");
